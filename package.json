@@ -1,29 +1,27 @@
 {
-    "name": "leaflet-snap",
+    "name": "gna-leaflet-snap",
     "version": "0.0.4",
-    "description": "Enable snapping between layers",
+    "description": "Fork of makinacorpus/Leaflet.Snap",
     "keywords": [
         "Leaflet",
         "GIS"
     ],
     "main": "leaflet.snap.js",
-    "bugs": {
-        "url": "https://github.com/makinacorpus/Leaflet.Snap/issues"
-    },
     "scripts": {
       "test": "mocha-phantomjs ./test/index.html --reporter list || true"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/makinacorpus/Leaflet.Snap.git"
+        "url": "git@github.com:joaoponceleao/Leaflet.Snap.git"
     },
     "license": "MIT",
+    "private": true,
     "dependencies": {
-        "leaflet": "^0.7.7",
+        "leaflet": "*",
         "leaflet-geometryutil": "*"
     },
     "optionalDependencies": {
-        "leaflet-draw": "^0.3.2"
+        "leaflet-draw": "*"
     },
     "devDependencies": {
         "chai": "^3.5.0",
